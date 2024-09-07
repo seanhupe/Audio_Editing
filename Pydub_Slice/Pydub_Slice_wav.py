@@ -13,7 +13,7 @@ slice_length = 10000
 # Total length of the audio in milliseconds
 audio_length = len(audio)
 
-# Output directory for saving the slices (same as input directory)
+# Output directory for saving the slices (same as the input directory)
 output_dir = os.path.dirname(file_path)
 
 # Slice the audio into 3-second clips and save each one
