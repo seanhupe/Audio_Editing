@@ -10,7 +10,7 @@ audio = AudioSegment.from_mp3(file_path)
 # Duration of each slice in milliseconds (10 seconds = 10000 milliseconds)
 slice_length = 10000
 
-# Total length of the audio in milliseconds
+# Total length of the audio in milliseconds.
 audio_length = len(audio)
 
 # Output directory for saving the slices (same as the input directory)
