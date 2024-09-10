@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 import os
 
-# Define the path to the MP3 file in t he directory "G:\Music\Pydub_Slice"
+# Define the path to the MP3 file in t he directory "G:\Music\Pydub_Slice."
 file_path = r"G:\Music\Pydub_Slice\Bon_Jovi_Waves.mp3"
 
 # Load the MP3 file using Pydub
