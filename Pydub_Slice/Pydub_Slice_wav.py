@@ -7,7 +7,7 @@ file_path = r"G:\Music\Pydub_Slice\Bon_Jovi_Waves.mp3"
 # Load the MP3 file using Pydub
 audio = AudioSegment.from_mp3(file_path)
 
-# Duration of each slice in milliseconds (10 seconds = 10000 milliseconds)
+# Duration of each slice in milliseconds (10 seconds = 10000 milliseconds.)
 slice_length = 10000
 
 # Total length of the audio in milliseconds.
